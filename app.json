@@ -1,0 +1,18 @@
+{
+  "name": "TimberCruise Collector",
+  "description": "Collects MetricKit JSON payloads.",
+  "website": "https://oldgrowth.tech/",
+  "repository": "https://github.com/old-growth/timbercruise-collector-ruby",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "image": "heroku/ruby",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby",
+      "as": "DATABASE"
+    }
+  ]
+}
