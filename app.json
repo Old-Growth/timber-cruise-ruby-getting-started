@@ -11,7 +11,7 @@
   "image": "heroku/ruby",
   "addons": [
     {
-      "plan": "heroku-postgresql:hobby",
+      "plan": "heroku-postgresql:hobby-dev",
       "as": "DATABASE"
     }
   ]
