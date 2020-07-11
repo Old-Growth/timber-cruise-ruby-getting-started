@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    foreman (0.87.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.2)
@@ -25,7 +24,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  foreman
   pg
   puma
   rack-ssl-enforcer
