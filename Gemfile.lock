@@ -5,7 +5,7 @@ GEM
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.2)
     pg (1.2.3)
-    puma (4.3.5)
+    puma (5.0.0.beta1)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-protection (2.0.8.1)
@@ -25,10 +25,10 @@ PLATFORMS
 
 DEPENDENCIES
   pg
-  puma
+  puma (>= 5.0.0.beta)
   rack-ssl-enforcer
   sequel
   sinatra
 
 BUNDLED WITH
-   2.1.4
+   1.17.2
