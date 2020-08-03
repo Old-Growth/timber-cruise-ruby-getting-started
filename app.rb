@@ -8,13 +8,13 @@ class App < Sinatra::Base
 
   post '/collect' do
     pass unless request.content_type == 'application/json'
-    
+
     DB[:payloads].insert(app_bundle_id: request.user_agent,
                          payload: request.body.read)
     status 202
   end
 
   error do
-    status 401
+    status 500
   end
 end
